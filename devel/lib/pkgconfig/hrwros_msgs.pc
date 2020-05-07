@@ -1,0 +1,8 @@
+prefix=/home/sebastian/ROS/EDx_ROS/hrwros_ws/devel
+
+Name: hrwros_msgs
+Description: Description of hrwros_msgs
+Version: 0.0.0
+Cflags: -I/home/sebastian/ROS/EDx_ROS/hrwros_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp geometry_msgs std_msgs trajectory_msgs moveit_msgs actionlib_msgs
